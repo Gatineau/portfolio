@@ -25,14 +25,20 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="container h-screen mx-auto px-6 py-20 snap-start"
+      className="container min-h-screen mx-auto px-4 sm:px-6 py-16 sm:py-24 snap-start"
     >
       <h3 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-100 relative">
         Projects
         <span className="block w-24 h-1 bg-cyan-500 mx-auto mt-2 rounded-full"></span>
       </h3>
 
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="
+        grid
+        grid-cols-1
+        sm:grid-cols-2
+        gap-6 sm:gap-8
+        max-w-6xl mx-auto
+      ">
       {projects.map((project, index) => (
         <a
           key={index}
@@ -41,7 +47,7 @@ export default function Projects() {
           rel="noopener noreferrer"
           className="
             project-card
-            group bg-gray-900 border border-gray-800 rounded-xl p-6
+            group bg-gray-900 border border-gray-800 rounded-xl p-4 sm:p-6
             transition-all duration-500 ease-out
             transform
             opacity-0 translate-y-10

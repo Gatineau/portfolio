@@ -4,7 +4,13 @@ export default function About() {
   return (
     <section
       id="about"
-      className="container mx-auto px-6 py-24 min-h-screen snap-start"
+      className="
+        container mx-auto
+        px-4 sm:px-6
+        py-16 sm:py-20 md:py-24
+        min-h-screen
+        snap-start
+      "
     >
       <div className="mb-12 text-center">
         <h3 className="text-3xl md:text-4xl font-bold text-gray-100">
@@ -13,7 +19,7 @@ export default function About() {
         <span className="block w-20 h-1 bg-cyan-500 mx-auto mt-3 rounded-full" />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
 
         <div className="
             bg-gray-900
@@ -30,7 +36,7 @@ export default function About() {
             src={me}
             alt="Maugan Le Rhun"
             className="
-                w-48 md:w-56
+                w-40 sm:w-44 md:w-48 lg:w-56
                 rounded-full
                 mb-6
               "

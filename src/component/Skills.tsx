@@ -25,14 +25,23 @@ const Skills = () => {
   }, []);
 
   return (
-    <section id="skills" className="h-screen container mx-auto px-6 py-24 snap-start flex items-center">
+    <section
+      id="skills"
+      className="min-h-screen container mx-auto px-4 sm:px-6 py-16 sm:py-24 snap-start flex items-center"
+    >
       <div className="w-full">
         <h3 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-100 relative">
           Tech skills
           <span className="block w-24 h-1 bg-cyan-500 mx-auto mt-2 rounded-full"></span>
         </h3>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+        <div className="
+          grid
+          grid-cols-1
+          lg:grid-cols-3
+          gap-6 sm:gap-8 lg:gap-10
+          max-w-6xl mx-auto
+        ">
           {Object.entries(skills).map(([category, items], catIndex) => (
             <div
               key={category}
@@ -49,7 +58,7 @@ const Skills = () => {
                       key={index}
                       className="group flex items-center gap-4 text-sm font-medium bg-gray-800/70 px-4 py-2.5 rounded-lg transition hover:bg-gray-700/70"
                     >
-                      {Icon && <Icon className="w-8 h-8 transition group-hover:scale-110" />}
+                      {Icon && <Icon className="w-6 h-6 sm:w-8 sm:h-8 transition group-hover:scale-110" />}
                       <span className="text-gray-200">{skill.name}</span>
                     </li>
                   );
