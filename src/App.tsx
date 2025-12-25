@@ -7,7 +7,7 @@ import Hero from './component/Hero';
 function App() {
 
   return (
-    <main className="h-screen bg-gray-950 text-gray-100 relative overflow-hidden overflow-y-scroll snap-y snap-mandatory">
+    <main className="h-screen bg-gray-950 text-gray-100 relative overflow-hidden overflow-y-scroll md:snap-y md:snap-mandatory">
       {/* Hero */}
       <Hero />
 

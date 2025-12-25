@@ -9,7 +9,7 @@ export default function About() {
         px-4 sm:px-6
         py-16 sm:py-20 md:py-24
         min-h-screen
-        snap-start
+        md:snap-start
       "
     >
       <div className="mb-12 text-center">

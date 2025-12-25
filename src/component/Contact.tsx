@@ -3,7 +3,7 @@ import GitHubIcon from '../assets/github.svg?react';
 
 export default function Contact() {
     return (
-        <section id="contact" className="container mx-auto px-6 py-20 text-center snap-start">
+        <section id="contact" className="container mx-auto px-6 py-20 text-center md:snap-start">
             <h3 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-100 relative">
                 Contact
                 <span className="block w-24 h-1 bg-cyan-500 mx-auto mt-2 rounded-full"></span>

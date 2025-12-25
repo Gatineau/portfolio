@@ -2,7 +2,7 @@ import AnimatedName from "./AnimatedName";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center snap-start overflow-hidden">
+    <section className="relative min-h-screen flex flex-col items-center justify-center md:snap-start overflow-hidden">
 
       <div className="text-center max-w-3xl px-6">
 

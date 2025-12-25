@@ -27,7 +27,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="min-h-screen container mx-auto px-4 sm:px-6 py-16 sm:py-24 snap-start flex items-center"
+      className="min-h-screen container mx-auto px-4 sm:px-6 py-16 sm:py-24 md:snap-start flex items-center"
     >
       <div className="w-full">
         <h3 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-100 relative">
